@@ -1,0 +1,60 @@
+.cityLinks {
+  text-align: center;
+  padding: 1rem 2rem;
+
+  a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #67696f;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: #5fb0e8;
+      font-weight: bold;
+    }
+  }
+}
+
+.todaySection {
+  padding: 2rem;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > div {
+    display: flex;
+  }
+
+  .todayTitle {
+    padding: 0 1rem 1rem;
+  }
+
+  img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .todayDeg {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.forecastBorder {
+  border-top: 2px solid white;
+
+  &:not(:last-of-type) {
+    border-right: 2px solid white;
+  }
+}
+
+.forecastSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
